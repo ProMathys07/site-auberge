@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location de Vacances - Villa Paradis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Villa Paradis - Votre &Eacute;chappée Belle</h1>
+        <nav>
+            <ul>
+                <li><a href="#description">Description</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#avis">Avis Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="description">
+            <h2>Description</h2>
+            <p>Paimpom les bains sur montagne est une destination idéale pour les amateurs de nature et de b thermales naturelles réputées pour leurs bienfaits et thérapeutiques.Ensuite, son pan enfin , son atmosphère paisible , propice à la détente et à la déconnexion , fat de paimpom lesB </p>
+            <h3>Points Forts</h3>
+            <ul>
+                <li>Ses sources thermales naturelles</li>
+                <li>Son panorama époustouflan et lieux de randonée</li>
+                <li>Son atmosphère paisible</li>
+            </ul>
+        </section>
+
+        <section id="galerie">
+            <h2>Galerie</h2>
+            <div>
+                <img src="naturevert.jfif" alt="nature vert" width="250px">
+                <img src="landscape.jfif" alt="Piscine et jardin" width="250px">
+                <img src="nature wall.jfif" alt="Intérieur luxueux" width="250px">
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li><strong>Wi-Fi</strong> haut débit gratuit</li>
+                <li><strong>Parking</strong> privé sécurisé</li>
+                <li><strong>Petit-déjeuner</strong> continental inclus</li>
+                <li><strong>Piscine</strong> chauffée</li>
+            </ul>
+        </section>
+
+        <section id="avis">
+            <h2>Avis des clients</h2>
+            <blockquote>
+                <p>"Un séjour exceptionnel dans un cadre idyllique. La villa est encore plus belle que sur les photos !"</p>
+            </blockquote>
+            <blockquote>
+                <p>"Service impeccable, vue à couper le souffle. Nous reviendrons certainement !"</p>
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="send_mail.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Villa Paradis - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
