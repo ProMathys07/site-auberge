@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeu de Noël Magique</title>
+    <title>Contact - Jeu de Noël Magique</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Jeu de Noël Magique</h1>
+        <h1>Contactez-nous</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
@@ -18,10 +18,17 @@
         </nav>
     </header>
 
-    <section id="intro">
-        <h2>Plongez dans un monde féerique !</h2>
-        <p>Venez découvrir notre jeu de Noël où vous aiderez le Père Noël à sauver les fêtes !</p>
-        <img src="image_noel.jpg" alt="Jeu de Noël" />
+    <section id="contact-form">
+        <h2>Nous aimerions avoir de vos nouvelles !</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
     </section>
 
     <footer>
